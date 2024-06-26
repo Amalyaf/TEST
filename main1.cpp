@@ -4,9 +4,12 @@ using namespace std;
 int main()
 {
 int a;
-cin>>a;
+int b, sum;
 
-cout<<a<<endl;
+cin>>a>>b;
+
+sum=a+b;
+cout<<sum<<endl;
 return 0;
 
 }
